@@ -1,66 +1,136 @@
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
 }
 
 #title {
-  background-color: #ff647b;
+  background-color: #ff526c;
   color: white;
 }
 
 h1 {
-  
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
-  
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* title image */
-.iphone{
-    width: 60%;
-    transform: rotate(25deg);
+.iphone {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* navbar */
-.navbar{
-    padding: 0 0 4.5rem 0;
-
+.navbar {
+  padding: 0 0 4.5rem 0;
 }
 
-.navbar-brand{ font-family: "Ubuntu";
-    color: white;
-        font-size: 2.5rem;
-        font-weight: 100; 
-        font-style:"Ubuntu"; 
+.navbar-brand {
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-style: "Ubuntu";
 }
 
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+  padding: 0 18px;
 }
 
-.nav-link{
- font-size: 1.2rem;
- font-weight: 100;
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
 }
- /* download buttons */
+/* download buttons */
 
-.dwld-btn{
-    margin: 5% 3% 5% 0;
-    box-shadow: 1px 1px 4px gray;
+.dwld-btn {
+  margin: 5% 3% 5% 0;
+  box-shadow: 1px 1px 4px gray;
 }
 
 /*  featues section */
-#features{
-    padding-top: 6rem ;
+#features {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: white;
+  position: relative;
 }
 
-.col-lg-4{
-    text-align: center;
+.feature-box {
+  text-align: center;
 }
-.fa-color{
-    color:  #ff647b;
+.fa-color {
+  color: #ff6b81;
+}
+
+.fa-color:hover {
+  color: #ff526c;
+}
+
+.fp {
+  color: #8f8f8f;
+}
+.fh {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Testimonials  */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff6b81;
+  color: #ffff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3rem;
+  text-align: center;
+  background-color: #ff6b81;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+.card-footer{
+  background-color: white;
+}
+
+.card{
+  box-shadow: 1px 1px 5px rgb(187, 187, 187);
 }
