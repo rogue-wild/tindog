@@ -134,3 +134,47 @@ h2 {
 .card{
   box-shadow: 1px 1px 5px rgb(187, 187, 187);
 }
+
+/* cta */
+
+#cta{
+  text-align: center;
+  background-color: #ff526c;
+  padding: 60px;
+  color: #ffff;
+}
+
+h3{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: white;
+}
+
+.fa-color1 {
+  padding: 20px;
+  color: gray;
+}
+
+.fa-color1:hover {
+  padding: 20px;
+  color:black;
+}
+
+.bt {
+  color: grey;
+  text-decoration: none;
+}
+
+.bt:hover {
+  color:black;
+  text-decoration: none;
+}
